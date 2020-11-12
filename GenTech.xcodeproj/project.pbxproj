@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,21 @@
 		C25B35CF255D8FDA00939889 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C25B35CD255D8FDA00939889 /* LaunchScreen.storyboard */; };
 		C25B35DA255D8FDA00939889 /* GenTechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25B35D9255D8FDA00939889 /* GenTechTests.swift */; };
 		C25B35E5255D8FDA00939889 /* GenTechUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25B35E4255D8FDA00939889 /* GenTechUITests.swift */; };
+		C25B35FA255D93BE00939889 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25B35F9255D93BE00939889 /* API.swift */; };
+		C25B3603255D9F8200939889 /* ReSwift in Frameworks */ = {isa = PBXBuildFile; productRef = C25B3602255D9F8200939889 /* ReSwift */; };
+		C25B360C255D9FCA00939889 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25B360B255D9FCA00939889 /* AppState.swift */; };
+		C25B3611255DA08A00939889 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25B3610255DA08A00939889 /* Action.swift */; };
+		C25B361C255DA3CD00939889 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25B361B255DA3CD00939889 /* Store.swift */; };
+		C25B3621255DA41C00939889 /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25B3620255DA41C00939889 /* Reducer.swift */; };
+		C25B3628255DC21B00939889 /* RepoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25B3626255DC21B00939889 /* RepoCell.swift */; };
+		C25B3629255DC21B00939889 /* RepoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C25B3627255DC21B00939889 /* RepoCell.xib */; };
+		C25B362F255DC46A00939889 /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = C25B362E255DC46A00939889 /* Nuke */; };
+		C25B3635255DC48C00939889 /* UIImageView + load.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25B3634255DC48C00939889 /* UIImageView + load.swift */; };
+		C25B363D255DC80200939889 /* UIViewController + Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25B363C255DC80200939889 /* UIViewController + Error.swift */; };
+		C25B3642255DC82900939889 /* UIView + circleRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25B3641255DC82900939889 /* UIView + circleRadius.swift */; };
+		C25B3647255DC83A00939889 /* UIView+Reuse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25B3646255DC83A00939889 /* UIView+Reuse.swift */; };
+		C25B364C255DC84700939889 /* Int+increment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25B364B255DC84700939889 /* Int+increment.swift */; };
+		C25B3652255DC8D900939889 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25B3651255DC8D900939889 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +64,19 @@
 		C25B35E0255D8FDA00939889 /* GenTechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenTechUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C25B35E4255D8FDA00939889 /* GenTechUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenTechUITests.swift; sourceTree = "<group>"; };
 		C25B35E6255D8FDA00939889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C25B35F9255D93BE00939889 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		C25B360B255D9FCA00939889 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		C25B3610255DA08A00939889 /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		C25B361B255DA3CD00939889 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		C25B3620255DA41C00939889 /* Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reducer.swift; sourceTree = "<group>"; };
+		C25B3626255DC21B00939889 /* RepoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoCell.swift; sourceTree = "<group>"; };
+		C25B3627255DC21B00939889 /* RepoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RepoCell.xib; sourceTree = "<group>"; };
+		C25B3634255DC48C00939889 /* UIImageView + load.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + load.swift"; sourceTree = "<group>"; };
+		C25B363C255DC80200939889 /* UIViewController + Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Error.swift"; sourceTree = "<group>"; };
+		C25B3641255DC82900939889 /* UIView + circleRadius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + circleRadius.swift"; sourceTree = "<group>"; };
+		C25B3646255DC83A00939889 /* UIView+Reuse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Reuse.swift"; sourceTree = "<group>"; };
+		C25B364B255DC84700939889 /* Int+increment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+increment.swift"; sourceTree = "<group>"; };
+		C25B3651255DC8D900939889 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C25B3603255D9F8200939889 /* ReSwift in Frameworks */,
+				C25B362F255DC46A00939889 /* Nuke in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +129,14 @@
 		C25B35C1255D8FD900939889 /* GenTech */ = {
 			isa = PBXGroup;
 			children = (
+				C25B3650255DC8D300939889 /* Model */,
+				C25B3633255DC47F00939889 /* Extension */,
+				C25B3625255DC20A00939889 /* Cell */,
+				C25B360A255D9FBF00939889 /* Action */,
+				C25B3609255D9FB900939889 /* State */,
+				C25B3608255D9FB400939889 /* Store */,
+				C25B3607255D9FAF00939889 /* Reducer */,
+				C25B35F8255D93AF00939889 /* API */,
 				C25B35C2255D8FD900939889 /* AppDelegate.swift */,
 				C25B35C4255D8FD900939889 /* SceneDelegate.swift */,
 				C25B35C6255D8FD900939889 /* ViewController.swift */,
@@ -128,6 +166,75 @@
 			path = GenTechUITests;
 			sourceTree = "<group>";
 		};
+		C25B35F8255D93AF00939889 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				C25B35F9255D93BE00939889 /* API.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		C25B3607255D9FAF00939889 /* Reducer */ = {
+			isa = PBXGroup;
+			children = (
+				C25B3620255DA41C00939889 /* Reducer.swift */,
+			);
+			path = Reducer;
+			sourceTree = "<group>";
+		};
+		C25B3608255D9FB400939889 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				C25B361B255DA3CD00939889 /* Store.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		C25B3609255D9FB900939889 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				C25B360B255D9FCA00939889 /* AppState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		C25B360A255D9FBF00939889 /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				C25B3610255DA08A00939889 /* Action.swift */,
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
+		C25B3625255DC20A00939889 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C25B3626255DC21B00939889 /* RepoCell.swift */,
+				C25B3627255DC21B00939889 /* RepoCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		C25B3633255DC47F00939889 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C25B3634255DC48C00939889 /* UIImageView + load.swift */,
+				C25B363C255DC80200939889 /* UIViewController + Error.swift */,
+				C25B3641255DC82900939889 /* UIView + circleRadius.swift */,
+				C25B3646255DC83A00939889 /* UIView+Reuse.swift */,
+				C25B364B255DC84700939889 /* Int+increment.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C25B3650255DC8D300939889 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C25B3651255DC8D900939889 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,6 +251,10 @@
 			dependencies = (
 			);
 			name = GenTech;
+			packageProductDependencies = (
+				C25B3602255D9F8200939889 /* ReSwift */,
+				C25B362E255DC46A00939889 /* Nuke */,
+			);
 			productName = GenTech;
 			productReference = C25B35BF255D8FD900939889 /* GenTech.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +326,10 @@
 				Base,
 			);
 			mainGroup = C25B35B6255D8FD900939889;
+			packageReferences = (
+				C25B3601255D9F8200939889 /* XCRemoteSwiftPackageReference "ReSwift" */,
+				C25B362D255DC46A00939889 /* XCRemoteSwiftPackageReference "Nuke" */,
+			);
 			productRefGroup = C25B35C0255D8FD900939889 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,6 +349,7 @@
 				C25B35CF255D8FDA00939889 /* LaunchScreen.storyboard in Resources */,
 				C25B35CC255D8FDA00939889 /* Assets.xcassets in Resources */,
 				C25B35CA255D8FD900939889 /* Main.storyboard in Resources */,
+				C25B3629255DC21B00939889 /* RepoCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +374,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C25B3652255DC8D900939889 /* Model.swift in Sources */,
+				C25B361C255DA3CD00939889 /* Store.swift in Sources */,
 				C25B35C7255D8FD900939889 /* ViewController.swift in Sources */,
+				C25B3621255DA41C00939889 /* Reducer.swift in Sources */,
+				C25B363D255DC80200939889 /* UIViewController + Error.swift in Sources */,
+				C25B3611255DA08A00939889 /* Action.swift in Sources */,
+				C25B3647255DC83A00939889 /* UIView+Reuse.swift in Sources */,
+				C25B3635255DC48C00939889 /* UIImageView + load.swift in Sources */,
+				C25B364C255DC84700939889 /* Int+increment.swift in Sources */,
+				C25B360C255D9FCA00939889 /* AppState.swift in Sources */,
+				C25B3628255DC21B00939889 /* RepoCell.swift in Sources */,
+				C25B3642255DC82900939889 /* UIView + circleRadius.swift in Sources */,
 				C25B35C3255D8FD900939889 /* AppDelegate.swift in Sources */,
+				C25B35FA255D93BE00939889 /* API.swift in Sources */,
 				C25B35C5255D8FD900939889 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,11 +567,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SSF7F7A55A;
 				INFOPLIST_FILE = GenTech/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = pHeroTest.GenTech;
+				PRODUCT_BUNDLE_IDENTIFIER = p.GenTech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -458,11 +587,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SSF7F7A55A;
 				INFOPLIST_FILE = GenTech/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = pHeroTest.GenTech;
+				PRODUCT_BUNDLE_IDENTIFIER = p.GenTech;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -593,6 +723,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C25B3601255D9F8200939889 /* XCRemoteSwiftPackageReference "ReSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReSwift/ReSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		C25B362D255DC46A00939889 /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.1.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C25B3602255D9F8200939889 /* ReSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C25B3601255D9F8200939889 /* XCRemoteSwiftPackageReference "ReSwift" */;
+			productName = ReSwift;
+		};
+		C25B362E255DC46A00939889 /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C25B362D255DC46A00939889 /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C25B35B7255D8FD900939889 /* Project object */;
 }

@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Nuke",
+        "repositoryURL": "https://github.com/kean/Nuke",
+        "state": {
+          "branch": null,
+          "revision": "a2a56211cd80614e1ac90bf2e76c5329f4f6b3d0",
+          "version": "9.1.2"
+        }
+      },
+      {
+        "package": "ReSwift",
+        "repositoryURL": "https://github.com/ReSwift/ReSwift",
+        "state": {
+          "branch": null,
+          "revision": "26d3095bdf55f093501bf3a749bb2718bab671b3",
+          "version": "6.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
