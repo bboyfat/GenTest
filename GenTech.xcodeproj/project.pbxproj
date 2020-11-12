@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C25B35C3255D8FD900939889 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25B35C2255D8FD900939889 /* AppDelegate.swift */; };
+		C25B35C5255D8FD900939889 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25B35C4255D8FD900939889 /* SceneDelegate.swift */; };
+		C25B35C7255D8FD900939889 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25B35C6255D8FD900939889 /* ViewController.swift */; };
+		C25B35CA255D8FD900939889 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C25B35C8255D8FD900939889 /* Main.storyboard */; };
+		C25B35CC255D8FDA00939889 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C25B35CB255D8FDA00939889 /* Assets.xcassets */; };
+		C25B35CF255D8FDA00939889 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C25B35CD255D8FDA00939889 /* LaunchScreen.storyboard */; };
+		C25B35DA255D8FDA00939889 /* GenTechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25B35D9255D8FDA00939889 /* GenTechTests.swift */; };
+		C25B35E5255D8FDA00939889 /* GenTechUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25B35E4255D8FDA00939889 /* GenTechUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C25B35D6255D8FDA00939889 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C25B35B7255D8FD900939889 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C25B35BE255D8FD900939889;
+			remoteInfo = GenTech;
+		};
+		C25B35E1255D8FDA00939889 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C25B35B7255D8FD900939889 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C25B35BE255D8FD900939889;
+			remoteInfo = GenTech;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C25B35BF255D8FD900939889 /* GenTech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenTech.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C25B35C2255D8FD900939889 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C25B35C4255D8FD900939889 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C25B35C6255D8FD900939889 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C25B35C9255D8FD900939889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C25B35CB255D8FDA00939889 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C25B35CE255D8FDA00939889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C25B35D0255D8FDA00939889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C25B35D5255D8FDA00939889 /* GenTechTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenTechTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C25B35D9255D8FDA00939889 /* GenTechTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenTechTests.swift; sourceTree = "<group>"; };
+		C25B35DB255D8FDA00939889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C25B35E0255D8FDA00939889 /* GenTechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenTechUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C25B35E4255D8FDA00939889 /* GenTechUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenTechUITests.swift; sourceTree = "<group>"; };
+		C25B35E6255D8FDA00939889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C25B35BC255D8FD900939889 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25B35D2255D8FDA00939889 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25B35DD255D8FDA00939889 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C25B35B6255D8FD900939889 = {
+			isa = PBXGroup;
+			children = (
+				C25B35C1255D8FD900939889 /* GenTech */,
+				C25B35D8255D8FDA00939889 /* GenTechTests */,
+				C25B35E3255D8FDA00939889 /* GenTechUITests */,
+				C25B35C0255D8FD900939889 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C25B35C0255D8FD900939889 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C25B35BF255D8FD900939889 /* GenTech.app */,
+				C25B35D5255D8FDA00939889 /* GenTechTests.xctest */,
+				C25B35E0255D8FDA00939889 /* GenTechUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C25B35C1255D8FD900939889 /* GenTech */ = {
+			isa = PBXGroup;
+			children = (
+				C25B35C2255D8FD900939889 /* AppDelegate.swift */,
+				C25B35C4255D8FD900939889 /* SceneDelegate.swift */,
+				C25B35C6255D8FD900939889 /* ViewController.swift */,
+				C25B35C8255D8FD900939889 /* Main.storyboard */,
+				C25B35CB255D8FDA00939889 /* Assets.xcassets */,
+				C25B35CD255D8FDA00939889 /* LaunchScreen.storyboard */,
+				C25B35D0255D8FDA00939889 /* Info.plist */,
+			);
+			path = GenTech;
+			sourceTree = "<group>";
+		};
+		C25B35D8255D8FDA00939889 /* GenTechTests */ = {
+			isa = PBXGroup;
+			children = (
+				C25B35D9255D8FDA00939889 /* GenTechTests.swift */,
+				C25B35DB255D8FDA00939889 /* Info.plist */,
+			);
+			path = GenTechTests;
+			sourceTree = "<group>";
+		};
+		C25B35E3255D8FDA00939889 /* GenTechUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C25B35E4255D8FDA00939889 /* GenTechUITests.swift */,
+				C25B35E6255D8FDA00939889 /* Info.plist */,
+			);
+			path = GenTechUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C25B35BE255D8FD900939889 /* GenTech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C25B35E9255D8FDA00939889 /* Build configuration list for PBXNativeTarget "GenTech" */;
+			buildPhases = (
+				C25B35BB255D8FD900939889 /* Sources */,
+				C25B35BC255D8FD900939889 /* Frameworks */,
+				C25B35BD255D8FD900939889 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GenTech;
+			productName = GenTech;
+			productReference = C25B35BF255D8FD900939889 /* GenTech.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C25B35D4255D8FDA00939889 /* GenTechTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C25B35EC255D8FDA00939889 /* Build configuration list for PBXNativeTarget "GenTechTests" */;
+			buildPhases = (
+				C25B35D1255D8FDA00939889 /* Sources */,
+				C25B35D2255D8FDA00939889 /* Frameworks */,
+				C25B35D3255D8FDA00939889 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C25B35D7255D8FDA00939889 /* PBXTargetDependency */,
+			);
+			name = GenTechTests;
+			productName = GenTechTests;
+			productReference = C25B35D5255D8FDA00939889 /* GenTechTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C25B35DF255D8FDA00939889 /* GenTechUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C25B35EF255D8FDA00939889 /* Build configuration list for PBXNativeTarget "GenTechUITests" */;
+			buildPhases = (
+				C25B35DC255D8FDA00939889 /* Sources */,
+				C25B35DD255D8FDA00939889 /* Frameworks */,
+				C25B35DE255D8FDA00939889 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C25B35E2255D8FDA00939889 /* PBXTargetDependency */,
+			);
+			name = GenTechUITests;
+			productName = GenTechUITests;
+			productReference = C25B35E0255D8FDA00939889 /* GenTechUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C25B35B7255D8FD900939889 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					C25B35BE255D8FD900939889 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					C25B35D4255D8FDA00939889 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = C25B35BE255D8FD900939889;
+					};
+					C25B35DF255D8FDA00939889 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = C25B35BE255D8FD900939889;
+					};
+				};
+			};
+			buildConfigurationList = C25B35BA255D8FD900939889 /* Build configuration list for PBXProject "GenTech" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C25B35B6255D8FD900939889;
+			productRefGroup = C25B35C0255D8FD900939889 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C25B35BE255D8FD900939889 /* GenTech */,
+				C25B35D4255D8FDA00939889 /* GenTechTests */,
+				C25B35DF255D8FDA00939889 /* GenTechUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C25B35BD255D8FD900939889 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C25B35CF255D8FDA00939889 /* LaunchScreen.storyboard in Resources */,
+				C25B35CC255D8FDA00939889 /* Assets.xcassets in Resources */,
+				C25B35CA255D8FD900939889 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25B35D3255D8FDA00939889 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25B35DE255D8FDA00939889 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C25B35BB255D8FD900939889 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C25B35C7255D8FD900939889 /* ViewController.swift in Sources */,
+				C25B35C3255D8FD900939889 /* AppDelegate.swift in Sources */,
+				C25B35C5255D8FD900939889 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25B35D1255D8FDA00939889 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C25B35DA255D8FDA00939889 /* GenTechTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25B35DC255D8FDA00939889 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C25B35E5255D8FDA00939889 /* GenTechUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C25B35D7255D8FDA00939889 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C25B35BE255D8FD900939889 /* GenTech */;
+			targetProxy = C25B35D6255D8FDA00939889 /* PBXContainerItemProxy */;
+		};
+		C25B35E2255D8FDA00939889 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C25B35BE255D8FD900939889 /* GenTech */;
+			targetProxy = C25B35E1255D8FDA00939889 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C25B35C8255D8FD900939889 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C25B35C9255D8FD900939889 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C25B35CD255D8FDA00939889 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C25B35CE255D8FDA00939889 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C25B35E7255D8FDA00939889 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C25B35E8255D8FDA00939889 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C25B35EA255D8FDA00939889 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SSF7F7A55A;
+				INFOPLIST_FILE = GenTech/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pHeroTest.GenTech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C25B35EB255D8FDA00939889 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SSF7F7A55A;
+				INFOPLIST_FILE = GenTech/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pHeroTest.GenTech;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C25B35ED255D8FDA00939889 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SSF7F7A55A;
+				INFOPLIST_FILE = GenTechTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pHeroTest.GenTechTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GenTech.app/GenTech";
+			};
+			name = Debug;
+		};
+		C25B35EE255D8FDA00939889 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SSF7F7A55A;
+				INFOPLIST_FILE = GenTechTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pHeroTest.GenTechTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GenTech.app/GenTech";
+			};
+			name = Release;
+		};
+		C25B35F0255D8FDA00939889 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SSF7F7A55A;
+				INFOPLIST_FILE = GenTechUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pHeroTest.GenTechUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GenTech;
+			};
+			name = Debug;
+		};
+		C25B35F1255D8FDA00939889 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SSF7F7A55A;
+				INFOPLIST_FILE = GenTechUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pHeroTest.GenTechUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GenTech;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C25B35BA255D8FD900939889 /* Build configuration list for PBXProject "GenTech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C25B35E7255D8FDA00939889 /* Debug */,
+				C25B35E8255D8FDA00939889 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C25B35E9255D8FDA00939889 /* Build configuration list for PBXNativeTarget "GenTech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C25B35EA255D8FDA00939889 /* Debug */,
+				C25B35EB255D8FDA00939889 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C25B35EC255D8FDA00939889 /* Build configuration list for PBXNativeTarget "GenTechTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C25B35ED255D8FDA00939889 /* Debug */,
+				C25B35EE255D8FDA00939889 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C25B35EF255D8FDA00939889 /* Build configuration list for PBXNativeTarget "GenTechUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C25B35F0255D8FDA00939889 /* Debug */,
+				C25B35F1255D8FDA00939889 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C25B35B7255D8FD900939889 /* Project object */;
+}
